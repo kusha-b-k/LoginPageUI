@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LoginPageUI</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="user">User Name</string>
+
+    <string name="lock">Password</string>
+
+    <string name="signin">SIGN IN</string>
+
+    <string name="not">not a Member ?</string>
+
+    <string name="reg">Sign Up Now</string>
+
+    <string name="hi1">User Name</string>
+
+    <string name="hi2">Password</string>
+    <string name="image">image</string>
+    <string name="image2">image2</string>
+
+</resources>

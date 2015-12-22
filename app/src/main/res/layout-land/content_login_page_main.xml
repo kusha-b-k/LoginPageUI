@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kushabk.com.loginpageui.login_page_main"
+    tools:showIn="@layout/activity_login_page_main"
+    android:background="#1f1f1f">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_marginTop="138dp"
+        android:background="@drawable/user"
+        android:contentDescription="@string/image2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="left" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:textColor="#03feee"
+        android:hint="@string/hi1"
+        android:backgroundTint="#f5323d3c"
+        android:textColorHint="#f5323d3c"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/lock"
+        android:contentDescription="@string/image"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_gravity="left" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:hint="@string/hi2"
+        android:backgroundTint="#f5323d3c"
+        android:textColorHint="#f5323d3c"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:id="@+id/button"
+        android:layout_marginTop="26dp"
+        android:background="#03feee"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not"
+        android:id="@+id/textView"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:textColor="#03feee" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:textColor="#03feee"
+        android:linksClickable="true" />
+</RelativeLayout>
