@@ -1,4 +1,13 @@
-# LoginPageUI
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="LoginPageUI android">
+<meta name="keywords" content="kushabk,kusha bk,kusha b k">
+<meta name="author" content="kusha bk">
+<meta http-equiv="refresh" content="30">
+</head>
+
+#LoginPageUI
 android login page
 
 
